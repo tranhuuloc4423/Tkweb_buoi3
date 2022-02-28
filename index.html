@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action="#" autocomplete="on">
+        <input type="number" name="number" id="number" min="0" step="20" max="100" placeholder="number" value="0">
+        <br>
+        <label for="lang">Choose a language:</label>
+        <select name="languages" id="lang" multiples>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Javascript">Javascript</option>
+        </select>
+        <br>
+        <progress max="100" value="30" > 30% </progress>
+        <br>
+
+        <details>
+            <summary>chọn câu trả lời của bạn</summary>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+        </details>
+    </form>
+
+    <audio controls>
+        <source src="./audio/Kalimba.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <video width="600px" height="500px" controls>
+        <source src="./video/clip-ngan-va-y-nghia.mp4" type="video/mp4"> 
+    </video>
+
+    <br>
+    <picture>
+        <source media="(min-width:700px)" srcset="./images/2.jpg" type="image/jpg">
+        <source media="(min-width:500px)" srcset="./images/3.jpg" type="image/jpg">
+        <img src="./images/1.jpg" alt="ảnh hotgirl" width="500">
+    </picture>
+
+    <figure>
+        <img src="./images/1.jpg" alt="">
+        <figcaption>đây là ảnh hotgirl nene</figcaption>
+    </figure>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aaCd7ZwE8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <object data="" type=""></object>
+    <br>
+    <svg width="500" height="500">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="plum" />
+        <rect width="1000" height="400" style="fill:plum;stroke-width:3;stroke:black" />
+    </svg>
+</body>
+</html>
